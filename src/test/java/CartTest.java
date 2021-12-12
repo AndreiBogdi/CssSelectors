@@ -21,5 +21,7 @@ public class CartTest {
             System.out.println("Success");
         else
             System.err.println("Fail");
+        driver.quit();
+        driver.close();
     }
 }
